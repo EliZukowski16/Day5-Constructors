@@ -1,0 +1,41 @@
+Constructors and Instantiation
+
+1) public Car()
+
+new Car();
+
+2) public Bean(int weight)
+
+new Bean(4);
+
+3) public Airplane(long maxDistance)
+
+new Airplane(1000000);
+
+4) public Bus(int seats)
+
+new Bus(20);
+
+5) public SkiLift(int chairs, float maxSpeed, float maxCapacity)
+
+new SkiLift(2, 12.0f, 4.0f);
+
+6) public Gondola(int maxOccupancy)
+
+new Gondola(6);
+
+7) public Data(String[] args)
+
+new Data(new String[] {"One", "Two", "Three"});
+
+8) public CelestialObject(Double distanceFromSol)
+
+new CelestialObject(133.234445221d);
+
+9) public Sun(Double maxSurfaceTemperature)
+
+new Sun(54000000.223121223d);
+
+10) public Pluto(boolean isPlanetOrNot)
+
+new Pluto(false);
